@@ -13,6 +13,9 @@ fi
 COMMIT_MSG="$(cat "$COMMIT_MSG_FILE")"
 FIRST_LINE="$(printf '%s' "$COMMIT_MSG" | sed -n '1p')"
 
+# Debug: print the raw first line
+echo "DEBUG: First line is: [$FIRST_LINE]"
+
 # Skip Git-generated merge/revert commits
 if [[ "$FIRST_LINE" =~ ^(Merge|Revert) ]]; then
     exit 0
@@ -29,11 +32,6 @@ if ! [[ "$FIRST_LINE" =~ $CONVENTIONAL_REGEX ]]; then
     echo "Expected: <type>(<scope>)?: <subject>"
     echo "Example: feat(auth): add OAuth login"
     echo "Allowed types: feat, fix, docs, style, refactor, perf, test, build, ci, chore, revert"
-    exit 1
-fi
-
-if (( ${#FIRST_LINE} > 72 )); then
-    echo "commit-msg: rejected (subject line must be 72 chars or fewer)"
     exit 1
 fi
 

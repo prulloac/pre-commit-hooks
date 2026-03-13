@@ -1,5 +1,7 @@
 # pre-commit-hooks
 
+[![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit)](https://github.com/pre-commit/pre-commit)
+
 A collection of custom Git commit message validation hooks for use with [pre-commit](https://pre-commit.com/).
 
 ## Overview

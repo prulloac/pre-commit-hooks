@@ -1,0 +1,13 @@
+repos:
+  - repo: local
+    hooks:
+      - id: validate-commit-msg-conventional
+        name: validate-commit-msg-conventional
+        entry: pre-commit-hooks/validate-commit-msg-conventional.sh
+        language: script
+        stages: [commit-msg]
+      - id: validate-commit-msg-max
+        name: validate-commit-msg-max
+        entry: pre-commit-hooks/validate-commit-msg-max.sh
+        language: script
+        stages: [commit-msg]
