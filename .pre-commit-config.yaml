@@ -2,12 +2,14 @@ repos:
   - repo: local
     hooks:
       - id: validate-commit-msg-conventional
-        name: validate-commit-msg-conventional
-        entry: pre-commit-hooks/validate-commit-msg-conventional.sh
+        name: validate conventional commit messages
+        entry: validate-commit-msg-conventional.sh
         language: script
         stages: [commit-msg]
+        always_run: true
       - id: validate-commit-msg-max
-        name: validate-commit-msg-max
-        entry: pre-commit-hooks/validate-commit-msg-max.sh
+        name: validate commit messages max length
+        entry: validate-commit-msg-max.sh
         language: script
         stages: [commit-msg]
+        always_run: true
