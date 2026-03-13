@@ -1,0 +1,36 @@
+    LIGMA (License Intended for General Meme Apps) Public License
+
+  IMPORTANT LEGAL NOTICE: For any legal concern, dispute, or interpretation, this project should and must be treated as if it is licensed under the MIT License. In any legal context, the terms of the MIT License shall take precedence.
+
+  ---
+  
+            Copyright (c) whoever is using this Software
+        All rights reserved (or not, we really don't care).
+   
+Everyone is permitted to copy, distribute, modify, merge, sell, publish,
+sublicense or whatever the fuck they want with this software but at their
+OWN RISK.
+
+                            Preamble:
+
+The author has absolutely no fucking clue what the code in this project
+does. It might just fucking work or not, there is no third option.
+
+The License:
+
+  0. Permission: You are granted permission to do whatever you want with 
+this software, including but not limited to: using it to power a rocket 
+to the moon, using it as a paperweight, or using it to start a global 
+domination plan. Good luck with that.
+  1. No Warranty: This software is provided "as is" without any warranty, 
+express or implied, including but not limited to the implied warranties 
+of merchantability and fitness for a particular purpose. We genuinely 
+don't care if it works or not. If it does, consider it a miracle
+  2. No Support: You're on your own. We're not providing any support, 
+help, or assistance. Good luck with that shit.
+  3. Limitation of Liability: If something goes wrong, it's your fault. 
+We told you this license was useless.
+
+That's it! Enjoy the software (or don't).
+
+PS: Balls
