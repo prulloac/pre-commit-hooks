@@ -13,9 +13,6 @@ fi
 COMMIT_MSG="$(cat "$COMMIT_MSG_FILE")"
 FIRST_LINE="$(printf '%s' "$COMMIT_MSG" | sed -n '1p')"
 
-# Debug: print the raw first line
-echo "DEBUG: First line is: [$FIRST_LINE]"
-
 # Skip Git-generated merge/revert commits
 if [[ "$FIRST_LINE" =~ ^(Merge|Revert) ]]; then
     exit 0
