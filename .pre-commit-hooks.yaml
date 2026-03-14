@@ -1,37 +1,37 @@
-# This manifest makes the shell scripts in this directory available as pre-commit hooks.
+# This manifest makes the shell pythons in this directory available as pre-commit hooks.
 # See: https://pre-commit.com/#creating-new-hooks
 
 - id: validate-commit-msg-conventional
   name: Validate Commit Message (Conventional)
   entry: validate-commit-msg-conventional
-  language: script
+  language: python
   stages: [commit-msg]
   description: Validates commit messages using the conventional commit format.
 
 - id: validate-commit-msg-copilot
   name: Validate Commit Message (Copilot)
   entry: validate-commit-msg-copilot
-  language: script
+  language: python
   stages: [commit-msg]
   description: Validates commit messages using Copilot rules.
 
 - id: validate-commit-msg-gemini
   name: Validate Commit Message (Gemini)
   entry: validate-commit-msg-gemini
-  language: script
+  language: python
   stages: [commit-msg]
   description: Validates commit messages using Gemini rules.
 
 - id: validate-commit-msg-max
   name: Validate Commit Message (Max)
   entry: validate-commit-msg-max
-  language: script
+  language: python
   stages: [commit-msg]
   description: Validates commit messages using Max rules.
 
 - id: validate-commit-msg-opencode
   name: Validate Commit Message (OpenCode)
   entry: validate-commit-msg-opencode
-  language: script
+  language: python
   stages: [commit-msg]
   description: Validates commit messages using OpenCode rules.

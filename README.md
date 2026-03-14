@@ -23,13 +23,9 @@ This repository provides several shell-based hooks to validate commit messages a
 
 ```yaml
 repos:
-  - repo: local
+  - repo: https://github.com/prulloac/pre-commit-hooks
     hooks:
       - id: validate-commit-msg-conventional
-        name: Validate Commit Message (Conventional)
-        entry: pre-commit-hooks/validate-commit-msg-conventional.sh
-        language: script
-        stages: [commit-msg]
       # Add other hooks as needed
 ```
 
@@ -48,7 +44,7 @@ pre-commit run --hook-stage commit-msg --all-files
 
 ## Requirements
 - [pre-commit](https://pre-commit.com/)
-- Bash shell
+- python
 - For Copilot/Gemini/OpenCode hooks: the respective CLI tools must be installed and available in your PATH
 
 ## License
