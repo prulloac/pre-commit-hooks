@@ -10,12 +10,11 @@ This repository provides several shell-based hooks to validate commit messages a
 
 ## Available Hooks
 
-- **validate-commit-msg-common**: Shared logic for commit message validation, sourced by other hooks.
 - **validate-commit-msg-conventional**: Enforces [Conventional Commits](https://www.conventionalcommits.org/) format using regex rules.
 - **validate-commit-msg-copilot**: Uses GitHub Copilot CLI to validate commit messages with AI assistance.
 - **validate-commit-msg-gemini**: Uses Gemini CLI to validate commit messages with AI assistance.
-- **validate-commit-msg-max**: Enforces a maximum subject line length for commit messages.
 - **validate-commit-msg-opencode**: Uses OpenCode CLI to validate commit messages with AI assistance.
+- **validate-commit-msg-max**: Enforces a maximum subject line length for commit messages.
 
 ## Usage
 

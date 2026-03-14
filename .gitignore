@@ -1,1 +1,7 @@
-.venv
+*.egg-info
+*.py[co]
+.*.sw[a-z]
+.coverage
+.tox
+dist
+build
