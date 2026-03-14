@@ -1,15 +1,6 @@
 repos:
-  - repo: local
+-   repo: https://github.com/prulloac/pre-commit-hooks
+    rev: v1.0.0
     hooks:
-      - id: validate-commit-msg-conventional
-        name: validate conventional commit messages
-        entry: validate-commit-msg-conventional.sh
-        language: script
-        stages: [commit-msg]
-        always_run: true
-      - id: validate-commit-msg-max
-        name: validate commit messages max length
-        entry: validate-commit-msg-max.sh
-        language: script
-        stages: [commit-msg]
-        always_run: true
+    -   id: validate-commit-msg-conventional
+    -   id: validate-commit-msg-max
