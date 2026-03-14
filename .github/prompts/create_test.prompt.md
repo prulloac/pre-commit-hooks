@@ -1,5 +1,5 @@
 ---
-name: Create Unit Tests for Selected File
+name: create-test
 description: Generate a comprehensive unit test file for the currently selected Python file. The generated tests should cover all public functions and methods, include meaningful comments, use pytest, save the test file in the tests/ directory, and automatically run pytest after creation.
 ---
 
