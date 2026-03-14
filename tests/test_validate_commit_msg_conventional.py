@@ -5,7 +5,6 @@ Covers the main() function and its validation logic for Conventional Commits.
 import os
 import sys
 import tempfile
-import pytest
 from pre_commit_hooks import validate_commit_msg_conventional
 
 # Helper to invoke main with a temp file
